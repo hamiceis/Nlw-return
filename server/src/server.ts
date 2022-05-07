@@ -5,6 +5,7 @@ import cors from 'cors'
 const app = express();
 
 // GET , POST, PUT, PATCH, DELETE
+
 app.use(cors())
 app.use(express.json())
 app.use(routes)
